@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  BAISIBUDEJIE
+//
+//  Created by zhurui on 16/8/30.
+//  Copyright © 2016年 zhurui. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+BSBDJExtension.h"
+
+
+#endif /* PrefixHeader_pch */
