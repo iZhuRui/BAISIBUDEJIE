@@ -23,6 +23,10 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
+        //  设置tabbar的背景图片
+        [self setBackgroundImage:[UIImage imageNamed:@"tabbar-light"]];
+        
+        //  添加发布按钮
         UIButton * publishBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [publishBtn setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_icon"] forState:UIControlStateNormal];
         [publishBtn setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_click_icon"] forState:UIControlStateSelected];

@@ -18,6 +18,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //  设置导航栏标题
+    //  initWithImage好处：imageview的尺寸和图片一样
+    self.navigationItem.title = @"我的关注";
+    
+    //  设置导航栏左边的按钮
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"friendsRecommentIcon" highlightImage:@"friendsRecommentIcon-click" target:self action:@selector(friendsClick)];
+    
+    self.view.backgroundColor = edaifuGlobalColor;
+    
+    edaifuLogFunc;
+}
+
+- (void)friendsClick
+{
+    edaifuLogFunc;
 }
 
 - (void)didReceiveMemoryWarning {

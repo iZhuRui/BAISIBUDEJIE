@@ -68,6 +68,9 @@
 //    self.tabBar = [[BSBDJTabBar alloc] init];
     //  出现readonly可以使用KVC改
     [self setValue:[[BSBDJTabBar alloc] init] forKeyPath:@"tabBar"];
+    
+    //  先设置完tabbar再设置图片
+//    [self.tabBar setBackgroundImage:[UIImage imageNamed:@"tabbar-light"]];
 }
 
 /**
@@ -80,10 +83,11 @@
     vc.tabBarItem.title         = title;
     vc.tabBarItem.image         = [UIImage imageNamed:image];
     vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
-    vc.view.backgroundColor     = [UIColor colorWithRed:arc4random_uniform(100) / 100.0 green:arc4random_uniform(100) / 100.0 blue:arc4random_uniform(100) / 100.0 alpha:1.0];
+    //  这行代码导致四个控制器同时创建，因为要拿到view要先创建viewcontroller，不合理
+//    vc.view.backgroundColor     = [UIColor colorWithRed:223/255.0 green:223/255.0 blue:223/255.0 alpha:1.0];
     //  包装一个导航栏控制器，添加导航栏控制器为tabbarcontroller的子控制器
     UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:vc];
-    
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
     [self addChildViewController:nav];
 }
 

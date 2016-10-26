@@ -10,11 +10,19 @@
 #define PrefixHeader_pch
 
 #import "UIView+BSBDJExtension.h"
+#import "UIBarButtonItem+BSBDJExtension.h"
 
 #ifdef DEBUG
 #define edaifuLog(...)  NSLog(__VA_ARGS__)
 #else
 #define edaifuLog(...)
 #endif
+
+#define edaifuLogFunc   edaifuLog(@"%s",__func__);
+
+//  (r)/255.0参数要加上括号
+#define edaifuRGBColor(r,g,b)   [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define edaifuGlobalColor   edaifuRGBColor(223,223,223)
 
 #endif /* PrefixHeader_pch */

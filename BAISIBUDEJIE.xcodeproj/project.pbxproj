@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7052E0EF1D751EB000E6C866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7052E0EE1D751EB000E6C866 /* main.m */; };
-		7052E0F21D751EB000E6C866 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7052E0F11D751EB000E6C866 /* AppDelegate.m */; };
 		7052E0FA1D751EB000E6C866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7052E0F91D751EB000E6C866 /* Assets.xcassets */; };
 		7052E1081D751EB000E6C866 /* BAISIBUDEJIETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7052E1071D751EB000E6C866 /* BAISIBUDEJIETests.m */; };
 		7052E1131D751EB000E6C866 /* BAISIBUDEJIEUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7052E1121D751EB000E6C866 /* BAISIBUDEJIEUITests.m */; };
-		7052E1221D75259300E6C866 /* BSBDJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7052E1211D75259300E6C866 /* BSBDJTabBarController.m */; };
-		7052E1251D7532CD00E6C866 /* BSBDJEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7052E1241D7532CD00E6C866 /* BSBDJEssenceViewController.m */; };
-		7052E1281D7532E700E6C866 /* BSBDJNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7052E1271D7532E700E6C866 /* BSBDJNewViewController.m */; };
-		7052E12B1D7532FF00E6C866 /* BSBDJFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7052E12A1D7532FF00E6C866 /* BSBDJFriendTrendsViewController.m */; };
-		7052E12E1D75330A00E6C866 /* BSBDJMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7052E12D1D75330A00E6C866 /* BSBDJMeViewController.m */; };
-		7052E1311D7536DF00E6C866 /* BSBDJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7052E1301D7536DF00E6C866 /* BSBDJTabBar.m */; };
-		7052E1351D756AFD00E6C866 /* UIView+BSBDJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7052E1341D756AFD00E6C866 /* UIView+BSBDJExtension.m */; };
+		70B275681DC0BEBB00DF9D29 /* BSBDJEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B275431DC0BEBB00DF9D29 /* BSBDJEssenceViewController.m */; };
+		70B275691DC0BEBB00DF9D29 /* BSBDJFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B275491DC0BEBB00DF9D29 /* BSBDJFriendTrendsViewController.m */; };
+		70B2756A1DC0BEBB00DF9D29 /* BSBDJMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B2754F1DC0BEBB00DF9D29 /* BSBDJMeViewController.m */; };
+		70B2756B1DC0BEBB00DF9D29 /* BSBDJNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B275551DC0BEBB00DF9D29 /* BSBDJNewViewController.m */; };
+		70B2756C1DC0BEBB00DF9D29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B2755A1DC0BEBB00DF9D29 /* AppDelegate.m */; };
+		70B2756D1DC0BEBB00DF9D29 /* UIBarButtonItem+BSBDJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B2755D1DC0BEBB00DF9D29 /* UIBarButtonItem+BSBDJExtension.m */; };
+		70B2756E1DC0BEBB00DF9D29 /* UIView+BSBDJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B2755F1DC0BEBB00DF9D29 /* UIView+BSBDJExtension.m */; };
+		70B2756F1DC0BEBB00DF9D29 /* BSBDJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B275621DC0BEBB00DF9D29 /* BSBDJTabBarController.m */; };
+		70B275701DC0BEBB00DF9D29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B275631DC0BEBB00DF9D29 /* main.m */; };
+		70B275711DC0BEBB00DF9D29 /* BSBDJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B275671DC0BEBB00DF9D29 /* BSBDJTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +41,6 @@
 
 /* Begin PBXFileReference section */
 		7052E0EA1D751EB000E6C866 /* BAISIBUDEJIE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BAISIBUDEJIE.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7052E0EE1D751EB000E6C866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7052E0F01D751EB000E6C866 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7052E0F11D751EB000E6C866 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7052E0F91D751EB000E6C866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7052E0FE1D751EB000E6C866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7052E1031D751EB000E6C866 /* BAISIBUDEJIETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BAISIBUDEJIETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,21 +49,26 @@
 		7052E10E1D751EB000E6C866 /* BAISIBUDEJIEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BAISIBUDEJIEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7052E1121D751EB000E6C866 /* BAISIBUDEJIEUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAISIBUDEJIEUITests.m; sourceTree = "<group>"; };
 		7052E1141D751EB000E6C866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7052E1201D75259300E6C866 /* BSBDJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBDJTabBarController.h; sourceTree = "<group>"; };
-		7052E1211D75259300E6C866 /* BSBDJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBDJTabBarController.m; sourceTree = "<group>"; };
-		7052E1231D7532CD00E6C866 /* BSBDJEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBDJEssenceViewController.h; sourceTree = "<group>"; };
-		7052E1241D7532CD00E6C866 /* BSBDJEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBDJEssenceViewController.m; sourceTree = "<group>"; };
-		7052E1261D7532E700E6C866 /* BSBDJNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBDJNewViewController.h; sourceTree = "<group>"; };
-		7052E1271D7532E700E6C866 /* BSBDJNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBDJNewViewController.m; sourceTree = "<group>"; };
-		7052E1291D7532FF00E6C866 /* BSBDJFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBDJFriendTrendsViewController.h; sourceTree = "<group>"; };
-		7052E12A1D7532FF00E6C866 /* BSBDJFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBDJFriendTrendsViewController.m; sourceTree = "<group>"; };
-		7052E12C1D75330A00E6C866 /* BSBDJMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBDJMeViewController.h; sourceTree = "<group>"; };
-		7052E12D1D75330A00E6C866 /* BSBDJMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBDJMeViewController.m; sourceTree = "<group>"; };
-		7052E12F1D7536DF00E6C866 /* BSBDJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBDJTabBar.h; sourceTree = "<group>"; };
-		7052E1301D7536DF00E6C866 /* BSBDJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBDJTabBar.m; sourceTree = "<group>"; };
-		7052E1331D756AFD00E6C866 /* UIView+BSBDJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+BSBDJExtension.h"; path = "../UIView+BSBDJExtension.h"; sourceTree = "<group>"; };
-		7052E1341D756AFD00E6C866 /* UIView+BSBDJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+BSBDJExtension.m"; path = "../UIView+BSBDJExtension.m"; sourceTree = "<group>"; };
-		7052E1361D75703D00E6C866 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		70B275421DC0BEBB00DF9D29 /* BSBDJEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBDJEssenceViewController.h; sourceTree = "<group>"; };
+		70B275431DC0BEBB00DF9D29 /* BSBDJEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBDJEssenceViewController.m; sourceTree = "<group>"; };
+		70B275481DC0BEBB00DF9D29 /* BSBDJFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBDJFriendTrendsViewController.h; sourceTree = "<group>"; };
+		70B275491DC0BEBB00DF9D29 /* BSBDJFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBDJFriendTrendsViewController.m; sourceTree = "<group>"; };
+		70B2754E1DC0BEBB00DF9D29 /* BSBDJMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBDJMeViewController.h; sourceTree = "<group>"; };
+		70B2754F1DC0BEBB00DF9D29 /* BSBDJMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBDJMeViewController.m; sourceTree = "<group>"; };
+		70B275541DC0BEBB00DF9D29 /* BSBDJNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBDJNewViewController.h; sourceTree = "<group>"; };
+		70B275551DC0BEBB00DF9D29 /* BSBDJNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBDJNewViewController.m; sourceTree = "<group>"; };
+		70B275591DC0BEBB00DF9D29 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70B2755A1DC0BEBB00DF9D29 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70B2755C1DC0BEBB00DF9D29 /* UIBarButtonItem+BSBDJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BSBDJExtension.h"; sourceTree = "<group>"; };
+		70B2755D1DC0BEBB00DF9D29 /* UIBarButtonItem+BSBDJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BSBDJExtension.m"; sourceTree = "<group>"; };
+		70B2755E1DC0BEBB00DF9D29 /* UIView+BSBDJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BSBDJExtension.h"; sourceTree = "<group>"; };
+		70B2755F1DC0BEBB00DF9D29 /* UIView+BSBDJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BSBDJExtension.m"; sourceTree = "<group>"; };
+		70B275611DC0BEBB00DF9D29 /* BSBDJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBDJTabBarController.h; sourceTree = "<group>"; };
+		70B275621DC0BEBB00DF9D29 /* BSBDJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBDJTabBarController.m; sourceTree = "<group>"; };
+		70B275631DC0BEBB00DF9D29 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70B275641DC0BEBB00DF9D29 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		70B275661DC0BEBB00DF9D29 /* BSBDJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBDJTabBar.h; sourceTree = "<group>"; };
+		70B275671DC0BEBB00DF9D29 /* BSBDJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBDJTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,24 +119,8 @@
 		7052E0EC1D751EB000E6C866 /* BAISIBUDEJIE */ = {
 			isa = PBXGroup;
 			children = (
-				7052E0F01D751EB000E6C866 /* AppDelegate.h */,
-				7052E0F11D751EB000E6C866 /* AppDelegate.m */,
-				7052E1201D75259300E6C866 /* BSBDJTabBarController.h */,
-				7052E1211D75259300E6C866 /* BSBDJTabBarController.m */,
-				7052E12F1D7536DF00E6C866 /* BSBDJTabBar.h */,
-				7052E1301D7536DF00E6C866 /* BSBDJTabBar.m */,
-				7052E1331D756AFD00E6C866 /* UIView+BSBDJExtension.h */,
-				7052E1341D756AFD00E6C866 /* UIView+BSBDJExtension.m */,
+				70B2753F1DC0BEBB00DF9D29 /* Classes */,
 				7052E0ED1D751EB000E6C866 /* Supporting Files */,
-				7052E1231D7532CD00E6C866 /* BSBDJEssenceViewController.h */,
-				7052E1241D7532CD00E6C866 /* BSBDJEssenceViewController.m */,
-				7052E1261D7532E700E6C866 /* BSBDJNewViewController.h */,
-				7052E1271D7532E700E6C866 /* BSBDJNewViewController.m */,
-				7052E1291D7532FF00E6C866 /* BSBDJFriendTrendsViewController.h */,
-				7052E12A1D7532FF00E6C866 /* BSBDJFriendTrendsViewController.m */,
-				7052E12C1D75330A00E6C866 /* BSBDJMeViewController.h */,
-				7052E12D1D75330A00E6C866 /* BSBDJMeViewController.m */,
-				7052E1361D75703D00E6C866 /* PrefixHeader.pch */,
 			);
 			path = BAISIBUDEJIE;
 			sourceTree = "<group>";
@@ -143,7 +130,6 @@
 			children = (
 				7052E0FE1D751EB000E6C866 /* Info.plist */,
 				7052E0F91D751EB000E6C866 /* Assets.xcassets */,
-				7052E0EE1D751EB000E6C866 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,6 +150,193 @@
 				7052E1141D751EB000E6C866 /* Info.plist */,
 			);
 			path = BAISIBUDEJIEUITests;
+			sourceTree = "<group>";
+		};
+		70B2753F1DC0BEBB00DF9D29 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				70B275401DC0BEBB00DF9D29 /* Essence_精华 */,
+				70B275461DC0BEBB00DF9D29 /* FriendTrends_关注 */,
+				70B2754C1DC0BEBB00DF9D29 /* Me_我 */,
+				70B275521DC0BEBB00DF9D29 /* New_新帖 */,
+				70B275581DC0BEBB00DF9D29 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		70B275401DC0BEBB00DF9D29 /* Essence_精华 */ = {
+			isa = PBXGroup;
+			children = (
+				70B275411DC0BEBB00DF9D29 /* Controller */,
+				70B275441DC0BEBB00DF9D29 /* Model */,
+				70B275451DC0BEBB00DF9D29 /* View */,
+			);
+			path = "Essence_精华";
+			sourceTree = "<group>";
+		};
+		70B275411DC0BEBB00DF9D29 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70B275421DC0BEBB00DF9D29 /* BSBDJEssenceViewController.h */,
+				70B275431DC0BEBB00DF9D29 /* BSBDJEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		70B275441DC0BEBB00DF9D29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70B275451DC0BEBB00DF9D29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70B275461DC0BEBB00DF9D29 /* FriendTrends_关注 */ = {
+			isa = PBXGroup;
+			children = (
+				70B275471DC0BEBB00DF9D29 /* Controller */,
+				70B2754A1DC0BEBB00DF9D29 /* Model */,
+				70B2754B1DC0BEBB00DF9D29 /* View */,
+			);
+			path = "FriendTrends_关注";
+			sourceTree = "<group>";
+		};
+		70B275471DC0BEBB00DF9D29 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70B275481DC0BEBB00DF9D29 /* BSBDJFriendTrendsViewController.h */,
+				70B275491DC0BEBB00DF9D29 /* BSBDJFriendTrendsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		70B2754A1DC0BEBB00DF9D29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70B2754B1DC0BEBB00DF9D29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70B2754C1DC0BEBB00DF9D29 /* Me_我 */ = {
+			isa = PBXGroup;
+			children = (
+				70B2754D1DC0BEBB00DF9D29 /* Controller */,
+				70B275501DC0BEBB00DF9D29 /* Model */,
+				70B275511DC0BEBB00DF9D29 /* View */,
+			);
+			path = "Me_我";
+			sourceTree = "<group>";
+		};
+		70B2754D1DC0BEBB00DF9D29 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70B2754E1DC0BEBB00DF9D29 /* BSBDJMeViewController.h */,
+				70B2754F1DC0BEBB00DF9D29 /* BSBDJMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		70B275501DC0BEBB00DF9D29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70B275511DC0BEBB00DF9D29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70B275521DC0BEBB00DF9D29 /* New_新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				70B275531DC0BEBB00DF9D29 /* Controller */,
+				70B275561DC0BEBB00DF9D29 /* Model */,
+				70B275571DC0BEBB00DF9D29 /* View */,
+			);
+			path = "New_新帖";
+			sourceTree = "<group>";
+		};
+		70B275531DC0BEBB00DF9D29 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70B275541DC0BEBB00DF9D29 /* BSBDJNewViewController.h */,
+				70B275551DC0BEBB00DF9D29 /* BSBDJNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		70B275561DC0BEBB00DF9D29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70B275571DC0BEBB00DF9D29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70B275581DC0BEBB00DF9D29 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				70B275651DC0BEBB00DF9D29 /* View */,
+				70B275601DC0BEBB00DF9D29 /* Controller */,
+				70B2755B1DC0BEBB00DF9D29 /* Category */,
+				70B275591DC0BEBB00DF9D29 /* AppDelegate.h */,
+				70B2755A1DC0BEBB00DF9D29 /* AppDelegate.m */,
+				70B275631DC0BEBB00DF9D29 /* main.m */,
+				70B275641DC0BEBB00DF9D29 /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		70B2755B1DC0BEBB00DF9D29 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				70B2755C1DC0BEBB00DF9D29 /* UIBarButtonItem+BSBDJExtension.h */,
+				70B2755D1DC0BEBB00DF9D29 /* UIBarButtonItem+BSBDJExtension.m */,
+				70B2755E1DC0BEBB00DF9D29 /* UIView+BSBDJExtension.h */,
+				70B2755F1DC0BEBB00DF9D29 /* UIView+BSBDJExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		70B275601DC0BEBB00DF9D29 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70B275611DC0BEBB00DF9D29 /* BSBDJTabBarController.h */,
+				70B275621DC0BEBB00DF9D29 /* BSBDJTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		70B275651DC0BEBB00DF9D29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				70B275661DC0BEBB00DF9D29 /* BSBDJTabBar.h */,
+				70B275671DC0BEBB00DF9D29 /* BSBDJTabBar.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,15 +468,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7052E12B1D7532FF00E6C866 /* BSBDJFriendTrendsViewController.m in Sources */,
-				7052E1311D7536DF00E6C866 /* BSBDJTabBar.m in Sources */,
-				7052E0F21D751EB000E6C866 /* AppDelegate.m in Sources */,
-				7052E12E1D75330A00E6C866 /* BSBDJMeViewController.m in Sources */,
-				7052E1351D756AFD00E6C866 /* UIView+BSBDJExtension.m in Sources */,
-				7052E1281D7532E700E6C866 /* BSBDJNewViewController.m in Sources */,
-				7052E1251D7532CD00E6C866 /* BSBDJEssenceViewController.m in Sources */,
-				7052E0EF1D751EB000E6C866 /* main.m in Sources */,
-				7052E1221D75259300E6C866 /* BSBDJTabBarController.m in Sources */,
+				70B2756A1DC0BEBB00DF9D29 /* BSBDJMeViewController.m in Sources */,
+				70B2756E1DC0BEBB00DF9D29 /* UIView+BSBDJExtension.m in Sources */,
+				70B2756B1DC0BEBB00DF9D29 /* BSBDJNewViewController.m in Sources */,
+				70B2756D1DC0BEBB00DF9D29 /* UIBarButtonItem+BSBDJExtension.m in Sources */,
+				70B275691DC0BEBB00DF9D29 /* BSBDJFriendTrendsViewController.m in Sources */,
+				70B275681DC0BEBB00DF9D29 /* BSBDJEssenceViewController.m in Sources */,
+				70B2756C1DC0BEBB00DF9D29 /* AppDelegate.m in Sources */,
+				70B275711DC0BEBB00DF9D29 /* BSBDJTabBar.m in Sources */,
+				70B275701DC0BEBB00DF9D29 /* main.m in Sources */,
+				70B2756F1DC0BEBB00DF9D29 /* BSBDJTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +600,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/BAISIBUDEJIE/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BAISIBUDEJIE/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = BAISIBUDEJIE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaofu.BAISIBUDEJIE;
@@ -439,7 +613,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/BAISIBUDEJIE/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BAISIBUDEJIE/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = BAISIBUDEJIE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaofu.BAISIBUDEJIE;
