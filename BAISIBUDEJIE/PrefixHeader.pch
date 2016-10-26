@@ -11,5 +11,10 @@
 
 #import "UIView+BSBDJExtension.h"
 
+#ifdef DEBUG
+#define edaifuLog(...)  NSLog(__VA_ARGS__)
+#else
+#define edaifuLog(...)
+#endif
 
 #endif /* PrefixHeader_pch */

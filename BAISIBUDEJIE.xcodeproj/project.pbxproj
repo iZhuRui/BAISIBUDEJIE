@@ -19,7 +19,6 @@
 		7052E12E1D75330A00E6C866 /* BSBDJMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7052E12D1D75330A00E6C866 /* BSBDJMeViewController.m */; };
 		7052E1311D7536DF00E6C866 /* BSBDJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7052E1301D7536DF00E6C866 /* BSBDJTabBar.m */; };
 		7052E1351D756AFD00E6C866 /* UIView+BSBDJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7052E1341D756AFD00E6C866 /* UIView+BSBDJExtension.m */; };
-		70B2753B1DBF2F8B00DF9D29 /* BSBDJrrrrrrrr.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B2753A1DBF2F8B00DF9D29 /* BSBDJrrrrrrrr.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +66,6 @@
 		7052E1331D756AFD00E6C866 /* UIView+BSBDJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+BSBDJExtension.h"; path = "../UIView+BSBDJExtension.h"; sourceTree = "<group>"; };
 		7052E1341D756AFD00E6C866 /* UIView+BSBDJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+BSBDJExtension.m"; path = "../UIView+BSBDJExtension.m"; sourceTree = "<group>"; };
 		7052E1361D75703D00E6C866 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		70B275391DBF2F8B00DF9D29 /* BSBDJrrrrrrrr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBDJrrrrrrrr.h; sourceTree = "<group>"; };
-		70B2753A1DBF2F8B00DF9D29 /* BSBDJrrrrrrrr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBDJrrrrrrrr.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +134,6 @@
 				7052E12C1D75330A00E6C866 /* BSBDJMeViewController.h */,
 				7052E12D1D75330A00E6C866 /* BSBDJMeViewController.m */,
 				7052E1361D75703D00E6C866 /* PrefixHeader.pch */,
-				70B275391DBF2F8B00DF9D29 /* BSBDJrrrrrrrr.h */,
-				70B2753A1DBF2F8B00DF9D29 /* BSBDJrrrrrrrr.m */,
 			);
 			path = BAISIBUDEJIE;
 			sourceTree = "<group>";
@@ -303,7 +298,6 @@
 				7052E12B1D7532FF00E6C866 /* BSBDJFriendTrendsViewController.m in Sources */,
 				7052E1311D7536DF00E6C866 /* BSBDJTabBar.m in Sources */,
 				7052E0F21D751EB000E6C866 /* AppDelegate.m in Sources */,
-				70B2753B1DBF2F8B00DF9D29 /* BSBDJrrrrrrrr.m in Sources */,
 				7052E12E1D75330A00E6C866 /* BSBDJMeViewController.m in Sources */,
 				7052E1351D756AFD00E6C866 /* UIView+BSBDJExtension.m in Sources */,
 				7052E1281D7532E700E6C866 /* BSBDJNewViewController.m in Sources */,
