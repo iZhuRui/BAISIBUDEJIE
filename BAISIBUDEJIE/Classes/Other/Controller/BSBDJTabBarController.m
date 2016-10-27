@@ -18,29 +18,36 @@
 
 #import "BSBDJTabBar.h"
 
+#import "BSBDJNavgationViewController.h"
+
 @interface BSBDJTabBarController ()
 
 @end
 
 @implementation BSBDJTabBarController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
+//  只需要设置一次的应放在initialize中
++ (void)initialize
+{
     //  通过appearance统一设置所有uitabbaritem的文字属性
     //  后面带有UI_APPEARANCE_SELECTOR的方法，都可以通过appearance对象来统一设置
     NSMutableDictionary *attrs                    = [NSMutableDictionary dictionary];
     attrs[NSFontAttributeName]                    = [UIFont systemFontOfSize:12.0];
     attrs[NSForegroundColorAttributeName]         = [UIColor grayColor];
-
+    
     NSMutableDictionary *selectedAttrs            = [NSMutableDictionary dictionary];
     selectedAttrs[NSFontAttributeName]            = attrs[NSFontAttributeName];
     selectedAttrs[NSForegroundColorAttributeName] = [UIColor darkGrayColor];
-
+    
     UITabBarItem *item                            = [UITabBarItem appearance];
     [item setTitleTextAttributes:attrs forState:UIControlStateNormal];
     [item setTitleTextAttributes:selectedAttrs forState:UIControlStateSelected];
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    
 
     //  添加子控制器
     [self setupChildVC:[[BSBDJEssenceViewController alloc] init]
@@ -86,8 +93,7 @@
     //  这行代码导致四个控制器同时创建，因为要拿到view要先创建viewcontroller，不合理
 //    vc.view.backgroundColor     = [UIColor colorWithRed:223/255.0 green:223/255.0 blue:223/255.0 alpha:1.0];
     //  包装一个导航栏控制器，添加导航栏控制器为tabbarcontroller的子控制器
-    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:vc];
-    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
+    BSBDJNavgationViewController * nav = [[BSBDJNavgationViewController alloc] initWithRootViewController:vc];
     [self addChildViewController:nav];
 }
 

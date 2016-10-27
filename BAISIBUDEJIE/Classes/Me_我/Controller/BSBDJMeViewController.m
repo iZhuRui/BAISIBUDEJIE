@@ -29,7 +29,7 @@
     
     self.navigationItem.rightBarButtonItems = @[settingButton,nightbutton];
     
-    self.view.backgroundColor = edaifuGlobalColor;
+    self.view.backgroundColor = edaifuGlobalBGColor;
     
     edaifuLogFunc;
 }

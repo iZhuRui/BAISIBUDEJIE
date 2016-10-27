@@ -9,6 +9,8 @@
 
 #import "BSBDJFriendTrendsViewController.h"
 
+#import "BSBDJRecommendViewController.h"
+
 @interface BSBDJFriendTrendsViewController ()
 
 @end
@@ -26,7 +28,7 @@
     //  设置导航栏左边的按钮
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"friendsRecommentIcon" highlightImage:@"friendsRecommentIcon-click" target:self action:@selector(friendsClick)];
     
-    self.view.backgroundColor = edaifuGlobalColor;
+    self.view.backgroundColor = edaifuGlobalBGColor;
     
     edaifuLogFunc;
 }
@@ -34,6 +36,10 @@
 - (void)friendsClick
 {
     edaifuLogFunc;
+    
+    BSBDJRecommendViewController * recommend = [[BSBDJRecommendViewController alloc] init];
+    [self.navigationController pushViewController:recommend animated:YES];
+    
 }
 
 - (void)didReceiveMemoryWarning {

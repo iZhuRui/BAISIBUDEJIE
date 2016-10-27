@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		397330E6D8FB815CE9ED85D7 /* libPods-BAISIBUDEJIE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B223212E25BD471D73CDFD /* libPods-BAISIBUDEJIE.a */; };
+		700FC77D1DC19063009CD99C /* BSBDJNavgationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700FC77C1DC19063009CD99C /* BSBDJNavgationViewController.m */; };
+		700FC7831DC1AC03009CD99C /* BSBDJFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 700FC7821DC1AC03009CD99C /* BSBDJFriendTrendsViewController.xib */; };
+		700FC7871DC1E6FA009CD99C /* BSBDJRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700FC7851DC1E6FA009CD99C /* BSBDJRecommendViewController.m */; };
+		700FC7881DC1E6FA009CD99C /* BSBDJRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 700FC7861DC1E6FA009CD99C /* BSBDJRecommendViewController.xib */; };
+		700FC78A1DC1EAA2009CD99C /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 700FC7891DC1EAA2009CD99C /* Foundation+Log.m */; };
+		700FC78D1DC1EF24009CD99C /* BSBDJRecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 700FC78C1DC1EF24009CD99C /* BSBDJRecommendCategory.m */; };
+		700FC7911DC1F2F0009CD99C /* BSBDJRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 700FC78F1DC1F2F0009CD99C /* BSBDJRecommendCategoryCell.m */; };
+		700FC7921DC1F2F0009CD99C /* BSBDJRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 700FC7901DC1F2F0009CD99C /* BSBDJRecommendCategoryCell.xib */; };
+		700FC7961DC20991009CD99C /* BSBDJRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 700FC7941DC20991009CD99C /* BSBDJRecommendUserCell.m */; };
+		700FC7971DC20991009CD99C /* BSBDJRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 700FC7951DC20991009CD99C /* BSBDJRecommendUserCell.xib */; };
+		700FC79A1DC20CEF009CD99C /* BSBDJRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 700FC7991DC20CEF009CD99C /* BSBDJRecommendUser.m */; };
 		7052E0FA1D751EB000E6C866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7052E0F91D751EB000E6C866 /* Assets.xcassets */; };
 		7052E1081D751EB000E6C866 /* BAISIBUDEJIETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7052E1071D751EB000E6C866 /* BAISIBUDEJIETests.m */; };
 		7052E1131D751EB000E6C866 /* BAISIBUDEJIEUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7052E1121D751EB000E6C866 /* BAISIBUDEJIEUITests.m */; };
@@ -40,6 +52,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03B223212E25BD471D73CDFD /* libPods-BAISIBUDEJIE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BAISIBUDEJIE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CA0BA1544D58F2725CAB22 /* Pods-BAISIBUDEJIE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BAISIBUDEJIE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BAISIBUDEJIE/Pods-BAISIBUDEJIE.debug.xcconfig"; sourceTree = "<group>"; };
+		0C93C675C60D8A3989CB12DF /* Pods-BAISIBUDEJIE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BAISIBUDEJIE.release.xcconfig"; path = "Pods/Target Support Files/Pods-BAISIBUDEJIE/Pods-BAISIBUDEJIE.release.xcconfig"; sourceTree = "<group>"; };
+		700FC77B1DC19063009CD99C /* BSBDJNavgationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBDJNavgationViewController.h; sourceTree = "<group>"; };
+		700FC77C1DC19063009CD99C /* BSBDJNavgationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBDJNavgationViewController.m; sourceTree = "<group>"; };
+		700FC7821DC1AC03009CD99C /* BSBDJFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSBDJFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		700FC7841DC1E6FA009CD99C /* BSBDJRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBDJRecommendViewController.h; sourceTree = "<group>"; };
+		700FC7851DC1E6FA009CD99C /* BSBDJRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBDJRecommendViewController.m; sourceTree = "<group>"; };
+		700FC7861DC1E6FA009CD99C /* BSBDJRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSBDJRecommendViewController.xib; sourceTree = "<group>"; };
+		700FC7891DC1EAA2009CD99C /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		700FC78B1DC1EF24009CD99C /* BSBDJRecommendCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBDJRecommendCategory.h; sourceTree = "<group>"; };
+		700FC78C1DC1EF24009CD99C /* BSBDJRecommendCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBDJRecommendCategory.m; sourceTree = "<group>"; };
+		700FC78E1DC1F2F0009CD99C /* BSBDJRecommendCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBDJRecommendCategoryCell.h; sourceTree = "<group>"; };
+		700FC78F1DC1F2F0009CD99C /* BSBDJRecommendCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBDJRecommendCategoryCell.m; sourceTree = "<group>"; };
+		700FC7901DC1F2F0009CD99C /* BSBDJRecommendCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSBDJRecommendCategoryCell.xib; sourceTree = "<group>"; };
+		700FC7931DC20991009CD99C /* BSBDJRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBDJRecommendUserCell.h; sourceTree = "<group>"; };
+		700FC7941DC20991009CD99C /* BSBDJRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBDJRecommendUserCell.m; sourceTree = "<group>"; };
+		700FC7951DC20991009CD99C /* BSBDJRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSBDJRecommendUserCell.xib; sourceTree = "<group>"; };
+		700FC7981DC20CEF009CD99C /* BSBDJRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBDJRecommendUser.h; sourceTree = "<group>"; };
+		700FC7991DC20CEF009CD99C /* BSBDJRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBDJRecommendUser.m; sourceTree = "<group>"; };
 		7052E0EA1D751EB000E6C866 /* BAISIBUDEJIE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BAISIBUDEJIE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7052E0F91D751EB000E6C866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7052E0FE1D751EB000E6C866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				397330E6D8FB815CE9ED85D7 /* libPods-BAISIBUDEJIE.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +136,8 @@
 				7052E1061D751EB000E6C866 /* BAISIBUDEJIETests */,
 				7052E1111D751EB000E6C866 /* BAISIBUDEJIEUITests */,
 				7052E0EB1D751EB000E6C866 /* Products */,
+				B5B6EE98AE39963FFA3BE8D3 /* Pods */,
+				750F3DEC98E7BD7EAF604EC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +247,10 @@
 			children = (
 				70B275481DC0BEBB00DF9D29 /* BSBDJFriendTrendsViewController.h */,
 				70B275491DC0BEBB00DF9D29 /* BSBDJFriendTrendsViewController.m */,
+				700FC7821DC1AC03009CD99C /* BSBDJFriendTrendsViewController.xib */,
+				700FC7841DC1E6FA009CD99C /* BSBDJRecommendViewController.h */,
+				700FC7851DC1E6FA009CD99C /* BSBDJRecommendViewController.m */,
+				700FC7861DC1E6FA009CD99C /* BSBDJRecommendViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -219,6 +258,10 @@
 		70B2754A1DC0BEBB00DF9D29 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				700FC78B1DC1EF24009CD99C /* BSBDJRecommendCategory.h */,
+				700FC78C1DC1EF24009CD99C /* BSBDJRecommendCategory.m */,
+				700FC7981DC20CEF009CD99C /* BSBDJRecommendUser.h */,
+				700FC7991DC20CEF009CD99C /* BSBDJRecommendUser.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -226,6 +269,12 @@
 		70B2754B1DC0BEBB00DF9D29 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				700FC78E1DC1F2F0009CD99C /* BSBDJRecommendCategoryCell.h */,
+				700FC78F1DC1F2F0009CD99C /* BSBDJRecommendCategoryCell.m */,
+				700FC7901DC1F2F0009CD99C /* BSBDJRecommendCategoryCell.xib */,
+				700FC7931DC20991009CD99C /* BSBDJRecommendUserCell.h */,
+				700FC7941DC20991009CD99C /* BSBDJRecommendUserCell.m */,
+				700FC7951DC20991009CD99C /* BSBDJRecommendUserCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -304,6 +353,7 @@
 				70B2755B1DC0BEBB00DF9D29 /* Category */,
 				70B275591DC0BEBB00DF9D29 /* AppDelegate.h */,
 				70B2755A1DC0BEBB00DF9D29 /* AppDelegate.m */,
+				700FC7891DC1EAA2009CD99C /* Foundation+Log.m */,
 				70B275631DC0BEBB00DF9D29 /* main.m */,
 				70B275641DC0BEBB00DF9D29 /* PrefixHeader.pch */,
 			);
@@ -326,6 +376,8 @@
 			children = (
 				70B275611DC0BEBB00DF9D29 /* BSBDJTabBarController.h */,
 				70B275621DC0BEBB00DF9D29 /* BSBDJTabBarController.m */,
+				700FC77B1DC19063009CD99C /* BSBDJNavgationViewController.h */,
+				700FC77C1DC19063009CD99C /* BSBDJNavgationViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -339,6 +391,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		750F3DEC98E7BD7EAF604EC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03B223212E25BD471D73CDFD /* libPods-BAISIBUDEJIE.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5B6EE98AE39963FFA3BE8D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03CA0BA1544D58F2725CAB22 /* Pods-BAISIBUDEJIE.debug.xcconfig */,
+				0C93C675C60D8A3989CB12DF /* Pods-BAISIBUDEJIE.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -346,9 +415,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7052E1171D751EB000E6C866 /* Build configuration list for PBXNativeTarget "BAISIBUDEJIE" */;
 			buildPhases = (
+				CC2BF0559BF04949440EB455 /* [CP] Check Pods Manifest.lock */,
 				7052E0E61D751EB000E6C866 /* Sources */,
 				7052E0E71D751EB000E6C866 /* Frameworks */,
 				7052E0E81D751EB000E6C866 /* Resources */,
+				9E2EE229DB3FA0D0EE8D2103 /* [CP] Embed Pods Frameworks */,
+				5919868BC6073D2C1ECFBED6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -407,6 +479,7 @@
 				TargetAttributes = {
 					7052E0E91D751EB000E6C866 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4329BH7S7N;
 					};
 					7052E1021D751EB000E6C866 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -443,7 +516,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				700FC7971DC20991009CD99C /* BSBDJRecommendUserCell.xib in Resources */,
+				700FC7921DC1F2F0009CD99C /* BSBDJRecommendCategoryCell.xib in Resources */,
+				700FC7831DC1AC03009CD99C /* BSBDJFriendTrendsViewController.xib in Resources */,
 				7052E0FA1D751EB000E6C866 /* Assets.xcassets in Resources */,
+				700FC7881DC1E6FA009CD99C /* BSBDJRecommendViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,20 +540,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5919868BC6073D2C1ECFBED6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BAISIBUDEJIE/Pods-BAISIBUDEJIE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E2EE229DB3FA0D0EE8D2103 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BAISIBUDEJIE/Pods-BAISIBUDEJIE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC2BF0559BF04949440EB455 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7052E0E61D751EB000E6C866 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				70B2756A1DC0BEBB00DF9D29 /* BSBDJMeViewController.m in Sources */,
+				700FC7961DC20991009CD99C /* BSBDJRecommendUserCell.m in Sources */,
 				70B2756E1DC0BEBB00DF9D29 /* UIView+BSBDJExtension.m in Sources */,
 				70B2756B1DC0BEBB00DF9D29 /* BSBDJNewViewController.m in Sources */,
+				700FC79A1DC20CEF009CD99C /* BSBDJRecommendUser.m in Sources */,
+				700FC7871DC1E6FA009CD99C /* BSBDJRecommendViewController.m in Sources */,
 				70B2756D1DC0BEBB00DF9D29 /* UIBarButtonItem+BSBDJExtension.m in Sources */,
+				700FC7911DC1F2F0009CD99C /* BSBDJRecommendCategoryCell.m in Sources */,
 				70B275691DC0BEBB00DF9D29 /* BSBDJFriendTrendsViewController.m in Sources */,
 				70B275681DC0BEBB00DF9D29 /* BSBDJEssenceViewController.m in Sources */,
 				70B2756C1DC0BEBB00DF9D29 /* AppDelegate.m in Sources */,
 				70B275711DC0BEBB00DF9D29 /* BSBDJTabBar.m in Sources */,
 				70B275701DC0BEBB00DF9D29 /* main.m in Sources */,
+				700FC78A1DC1EAA2009CD99C /* Foundation+Log.m in Sources */,
+				700FC77D1DC19063009CD99C /* BSBDJNavgationViewController.m in Sources */,
+				700FC78D1DC1EF24009CD99C /* BSBDJRecommendCategory.m in Sources */,
 				70B2756F1DC0BEBB00DF9D29 /* BSBDJTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -597,11 +729,14 @@
 		};
 		7052E1181D751EB000E6C866 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03CA0BA1544D58F2725CAB22 /* Pods-BAISIBUDEJIE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 4329BH7S7N;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BAISIBUDEJIE/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = BAISIBUDEJIE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaofu.BAISIBUDEJIE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -610,11 +745,14 @@
 		};
 		7052E1191D751EB000E6C866 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C93C675C60D8A3989CB12DF /* Pods-BAISIBUDEJIE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 4329BH7S7N;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BAISIBUDEJIE/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = BAISIBUDEJIE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaofu.BAISIBUDEJIE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
