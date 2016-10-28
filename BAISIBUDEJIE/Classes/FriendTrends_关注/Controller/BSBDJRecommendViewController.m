@@ -22,6 +22,8 @@
 
 #import "BSBDJRecommendUser.h"
 
+#import <MJRefresh.h>
+
 @interface BSBDJRecommendViewController ()  <UITableViewDelegate,UITableViewDataSource>
 /**  左边的类别数据  */
 @property (nonatomic, strong) NSArray * categories;
@@ -40,7 +42,11 @@ static NSString * const edaifuUserId = @"user";
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+    //  空间初始化
     [self setupTableView];
+    
+    //  添加刷新控件
+    [self setupRefresh];
     
     //  显示指示器
     [SVProgressHUD show];
@@ -70,7 +76,9 @@ static NSString * const edaifuUserId = @"user";
     }];
     
 }
-
+/**
+ *  控件初始化
+ */
 -(void)setupTableView
 {
     //  注册
@@ -91,14 +99,32 @@ static NSString * const edaifuUserId = @"user";
     self.view.backgroundColor = edaifuGlobalBGColor;
 }
 
+/**
+ *  添加刷新控件
+ */
+-(void)setupRefresh
+{
+    self.userTableView.mj_footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
+        edaifuLog(@"进入上拉刷新状态");
+        
+        //  加载后面一页数据
+    }];
+}
+
 #pragma mark - <UITableViewDataSource>
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    if (tableView == self.categoryTableView) {
+    if (tableView == self.categoryTableView) {//    左边的类别表格
         return self.categories.count;
-    }else {
+    }else {//   右边的用户表格
         
+        //  左边被选中的类别模型
         BSBDJRecommendCategory * category = self.categories[self.categoryTableView.indexPathForSelectedRow.row];
+        
+        //  每次加载数据时，都控制footer显示或者隐藏
+        self.userTableView.mj_footer.hidden = (category.users.count == 0);
+        
+        
         
         return category.users.count;
     }
@@ -134,6 +160,8 @@ static NSString * const edaifuUserId = @"user";
         //  显示曾经的数据
         [self.userTableView reloadData];
     }else {
+        //  赶紧刷新表格，目的是：马上显示当前category的用户数据，不让用户看见上一个category的残留数据
+        [self.userTableView reloadData];
     
         NSMutableDictionary * params = [NSMutableDictionary dictionary];
         params[@"a"] = @"list";
