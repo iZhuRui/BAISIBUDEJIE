@@ -147,6 +147,13 @@ static NSString * const edaifuUserId = @"user";
         //  结束刷新
         [self.userTableView.mj_header endRefreshing];
         
+        //  让底部控件结束刷新
+        if (rc.users.count == rc.total) {// 全部数据已经加载完毕
+            [self.userTableView.mj_footer endRefreshingWithNoMoreData];
+        }else {//   还没有加载完毕
+            [self.userTableView.mj_footer endRefreshing];
+        }
+        
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         //  提醒
         [SVProgressHUD showErrorWithStatus:@"加载用户数据失败"];
@@ -182,16 +189,39 @@ static NSString * const edaifuUserId = @"user";
         [self.userTableView reloadData];
         
         //  让底部控件结束刷新
-        if (category.users.count == category.total) {// 全部加载完毕
+        if (category.users.count == category.total) {// 全部数据已经加载完毕
             [self.userTableView.mj_footer endRefreshingWithNoMoreData];
-        }else {
+        }else {//   还没有加载完毕
             [self.userTableView.mj_footer endRefreshing];
         }
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         
+        //  提醒
+        [SVProgressHUD showErrorWithStatus:@"加载用户数据失败"];
+        
+        //  让底部控件结束刷新
+        [self.userTableView.mj_footer endRefreshing];
         
     }];
+}
+
+/**
+ *  时刻监测footer的状态
+ */
+- (void)checkFooterState
+{
+    BSBDJRecommendCategory * rc = edaifuSelectedCategory;
+    
+    //  每次刷新右边数据时，都控制footer显示或者隐藏
+    self.userTableView.mj_footer.hidden = (rc.users.count == 0);
+    
+    //  让底部控件结束刷新
+    if (rc.users.count == rc.total) {// 全部数据已经加载完毕
+        [self.userTableView.mj_footer endRefreshingWithNoMoreData];
+    }else {//   还没有加载完毕
+        [self.userTableView.mj_footer endRefreshing];
+    }
 }
 
 #pragma mark - <UITableViewDataSource>
@@ -201,17 +231,10 @@ static NSString * const edaifuUserId = @"user";
         return self.categories.count;
     }else {//   右边的用户表格
         
-        //  左边被选中的类别模型
-//        BSBDJRecommendCategory * category = self.categories[self.categoryTableView.indexPathForSelectedRow.row];
+        //  监测footer的状态
+        [self checkFooterState];
         
-        NSInteger count = [edaifuSelectedCategory users].count;
-        
-        //  每次刷新右边数据时，都控制footer显示或者隐藏
-        self.userTableView.mj_footer.hidden = (count == 0);
-        
-        
-        
-        return count;
+        return [edaifuSelectedCategory users].count;
     }
     
 }
