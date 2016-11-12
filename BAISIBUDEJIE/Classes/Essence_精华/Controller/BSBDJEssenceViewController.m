@@ -7,6 +7,7 @@
 //
 
 #import "BSBDJEssenceViewController.h"
+#import "BSBDJRecommendTagsController.h"
 
 @interface BSBDJEssenceViewController ()
 
@@ -32,7 +33,8 @@
 
 - (void)tagClick
 {
-    edaifuLogFunc;
+    BSBDJRecommendTagsController * tags = [[BSBDJRecommendTagsController alloc] init];
+    [self.navigationController pushViewController:tags animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
